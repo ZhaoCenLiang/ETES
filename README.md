@@ -14,7 +14,9 @@ We provide an example dataset containing the processed site records from 2010 to
 * ERSOD can effectively improve the GPP estimation accuracy, with an average 43.97% reduction of RMSE compared to similar GPP products.
 ## PCVS
 This an example showing the derivation of Plant Continuous Variable Set (PCVS) from an EVI time-series curve in a whole vegetation growing season. The PCVS could be supposed to characterize the differences in vegetation types and phenology.
+<br>
 ![PCVS](./PCVS_example.png)
 ## Comparison of the overall GPP accuracies among different models
 Yearly comparison: (A) MOD17, (B) GOSIF, (C) GPP-NIRv, (D) FLUXCOM, (E) ERSOD-ANN. Monthly comparison: (F) MOD17, (G) GOSIF, (H) GPP-NIRv, (I) FLUXCOM, (J) ERSOD-ANN. The blue-purple color means a lower scatter density, while the yellow-green color means a higher scatter density.
+<br>
 ![Scatterplot](./scatter_plot.jpg)
