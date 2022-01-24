@@ -3,7 +3,7 @@ Almost all existing remote sensing models (e.g., regression models, parametric m
 <br><br>
 To lessen the reliance on multisource data, we developed a new machine learning model for GPP estimation based entirely on remote sensing observation data (ERSOD). ERSOD is also free of PFTs and related parameter settings since it adopts a newly designed plant continuous variable set (PCVS) that is derived from the vegetation index time series of a vegetation growing cycle and can reflect the continuous spatiotemporal differences in plant functional types and phenology. 
 ## Data Description
-We provide an example dataset containing the processed site records from 2010 to 2014. These flux observations from FLUXNET 2015 were paired with remote sensing data via 5 × 5 grids (250 m). We construct the ERSOD model for GPP estimation in 3 algorithms (ANN, RF, SVR), as well as each contains a dataset file, model file and example code.
+We provide an example dataset containing processed site records from 2010 to 2014. These flux observations from FLUXNET 2015 were paired with remote sensing data via 5 × 5 grids (250 m). We construct the ERSOD model for GPP estimation in 3 algorithms (ANN, RF, SVR), as well as each model contains a dataset file, model file and example code.
 * ERSOD-ANN
 * ERSDO-RF 
 * ERSOD-SVR
