@@ -34,7 +34,8 @@ This a conceptual example showing the SCVTG (Seasonal characteristics of vegetat
 
 ## Pre-experiment for screening optimal features
 Comparison of each combination scheme during the screening experiment. (a) The R2 comparison of daily GPP estimation; (b) the RMSE comparison of daily GPP estimation; and (c) the comparison of relative feature importance among schemes. Each scheme contains different input variables. The red boxes (FLUX-SW) represent schemes using shortwave radiation data from flux observations, and the blue boxes (GLASS-SW) represent schemes using shortwave radiation data from remote sensing products. The symbol *, **, *** shows the significance level of t-test between two schemes (e.g., Plan A' vs. Plan B') at the 0.05, 0.01 and 0.001 level, respectively. The relative feature importance (showed with the area) is calculated with each input variable’s mean |SHAP|. Note the differences between SCVTG-based schemes (Plan A, B, C, D, E) and PFT-based schemes (Plan A', B', C', D', E'), and the differences between the FLUX-SW schemes and the GLASS-SW schemes.
-![SCVTG](./Figure/Pre_experiment.jpg)
+<br><br>
+![Pre_experiment](./Figure/Pre_experiment.jpg)
 
 ## Comparison of each input variables’ contribution to GPP estimation between
 
