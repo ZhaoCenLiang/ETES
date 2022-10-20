@@ -3,8 +3,9 @@ Almost all existing remote sensing models (e.g., regression models, parametric m
 <br><br>
 Therefore, we developed an End-To-End Satellite-based model (ETES) to improve GPP estimation. ETES only utilizes input variables from original satellite observations and Global Land Surface Satellite (GLASS) downward shortwave radiation data. It replaces the traditional vegetation types data with a set of numeric variables (named as Seasonal Characteristics of Vegetation Types and Growth, SCVTG) derived from the curve of vegetation index time series within each growing cycle.  
 ## Data Description
-We provide an example dataset containing processed site records from 2010 to 2014. These flux observations from FLUXNET 2015 were paired with remote sensing data. We construct the ETES model for GPP estimation in multi-layer perceptron method (MLP), and it contains a dataset file, model file and example code.
-* ETES-MLP
+We provide an example dataset containing processed site records paired with 5-km satellite data. The remote sensing data in that example is the mean of 5-km pixels' reflectance. We construct the ETES model for GPP estimation in multi-layer perceptron method (MLP), and it contains a dataset file, model file and example code.
+<br><br>
+__Tips:__ It would have a better 5-km result if applying the satellite data with higher spatial resolution and integrating estimation results to 5 km scale, because of the non-linear reponse of ETES model. In some way, the non-linear relationship is the main process existing within the real world.
 
 ## Highlights
 * We developed an end-to-end satellite-based GPP estimation model (ETES), lessening the reliance on multiple data sources. 
@@ -37,7 +38,7 @@ Comparison of each combination scheme during the screening experiment. (a) The R
 <br><br>
 ![Pre_experiment](./Figure/Pre_experiment.JPG)
 
-## Comparison of each input variables’ contribution to GPP estimation between
+## Comparison of each input variables’ contribution to GPP estimation
 
 <center>
     <img style="border-radius: 0.3125em;
